@@ -386,7 +386,7 @@ button {
 }
 .news_letter h2,
 p,
-input {
+.placeholder_one {
   margin-bottom: 20px;
 }
 .news_letter input {
