@@ -318,6 +318,59 @@ button {
   line-height: normal;
   padding: 10px 0;
 }
+.newsletter {
+  width: 100%;
+  max-width: 992px;
+  margin: 50px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+.news_letter {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.news_letter h2,
+p,
+input {
+  margin-bottom: 20px;
+}
+.news_letter input {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.news_letter h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.news_letter button {
+  width: 50%;
+}
+.news_image {
+  width: 48%;
+  position: relative;
+}
+.news_image img {
+  width: 100%;
+}
+.taevel {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 60%;
+  top: 59%;
+  rotate: -45deg;
+}
 
 @media screen and (max-width: 600px) {
   * {
@@ -366,11 +419,14 @@ button {
   .text-style {
     top: 10%;
   }
-  .tour {
+  .tour,
+  .newsletter {
     flex-direction: column;
   }
   .tour_text,
-  .tour_image {
+  .tour_image,
+  .news_letter,
+  .news_image {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -418,5 +474,8 @@ button {
   .card_2,
   .card_3 {
     width: 100%;
+  }
+  .taevel {
+    left: 64%;
   }
 }
