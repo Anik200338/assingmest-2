@@ -97,7 +97,7 @@
 }
 .text-style_2 h2 {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: Mulish;
   font-size: 50px;
   font-style: normal;
@@ -477,7 +477,8 @@ footer {
     padding-top: 20px;
   }
 
-  .Images {
+  .Images,
+  .Images-2 {
     height: 650px;
   }
   .from-style input,
