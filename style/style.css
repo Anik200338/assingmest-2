@@ -135,6 +135,59 @@ button {
   line-height: normal;
   background-color: #ff5400;
 }
+.tour {
+  width: 100%;
+  max-width: 992px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tour_text {
+  width: 48%;
+}
+
+.tour_text h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.tour-li {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tour-li li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tour_text p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tour_image {
+  width: 48%;
+}
+.tour_image img {
+  width: 100%;
+}
+
+.tour_btn {
+  width: 30%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #ff5400;
+  margin-top: 10px;
+}
 @media screen and (max-width: 600px) {
   * {
     margin: 10px;
@@ -179,5 +232,14 @@ button {
   }
   .text-style {
     top: 10%;
+  }
+  .tour {
+    flex-direction: column;
+  }
+  .tour_text,
+  .tour_image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
